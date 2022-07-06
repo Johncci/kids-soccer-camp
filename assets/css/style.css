@@ -1,3 +1,47 @@
-body{
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
 }
+
+body{
+    color: black;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+}
+
+.main-header{
+    color: green;
+    text-decoration: none;
+    background-color: tranparent;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: inline;
+    float: right;
+    padding-right: 10px;
+    font-size: 130%;
+}
+
+a:link{
+    color:green;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    color: purple;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
