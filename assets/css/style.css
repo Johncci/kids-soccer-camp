@@ -13,15 +13,19 @@ body{
 }
 
 .main-header{
-    color: green;
+    color: black;
     text-decoration: none;
-    background-color: tranparent;
+    background-color: grey;
+    text-align: center;
+    font-size: 300%;
+    border: 2px grey solid;
+    position: relative;
+    text-transform: uppercase;
+
 }
 
 ul{
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 li{
@@ -42,6 +46,38 @@ a:hover{
     text-decoration: none;
     background-color: transparent;
 }
+
+/* hero image*/
+
+.hero-image{
+    height: 850px;
+    max-width: 100%;
+    background: url("../css/images/istockphoto-1342229939-612x612.jpg") no-repeat center center;
+    background-color: orange;
+    background-size: cover;
+}
+
+.text-content{
+    float:right;
+    border:2px solid grey;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: grey;
+    position: relative;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+
+
+
+
+    
+
+
+
 
 
 
