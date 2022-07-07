@@ -13,8 +13,9 @@ body{
 }
 
 #main-header{
-    float:left;
+    float: left;
     font-size: 250%;
+    padding-left: 10px;
 }
 
 ul{
@@ -23,8 +24,11 @@ ul{
 
 li{
     float: right;
-    padding-right: 10px;
-    font-size: 150%;
+    padding-right: 25px;
+    padding-top: 10px;
+    font-size: 175%;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 a{
@@ -46,7 +50,7 @@ a:hover{
     max-width: 100%;
     background: url("../css/images/pexels-lukas-296302\ \(2\).jpg");
     background-color: orange;
-    background-size: cover;
+    background-size: auto;
     margin: 0 5px 0 5px;
 }
 
@@ -62,6 +66,22 @@ a:hover{
     bottom: 250px;
     right: 200px;
     position: absolute;
+}
+
+/*--second page club details--*/
+
+#about-us{
+    height: 700px;
+}
+
+#left-div{
+    width: 50%;
+    float: left;
+}
+
+#right-div{
+    width: 50%;
+    float: right;
 }
 
 
