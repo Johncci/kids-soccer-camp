@@ -12,16 +12,9 @@ body{
     font-weight: 300;
 }
 
-.main-header{
-    color: black;
-    text-decoration: none;
-    background-color: grey;
-    text-align: center;
-    font-size: 300%;
-    border: 2px grey solid;
-    position: relative;
-    text-transform: uppercase;
-
+#main-header{
+    float:left;
+    font-size: 250%;
 }
 
 ul{
@@ -29,45 +22,46 @@ ul{
 }
 
 li{
-    display: inline;
     float: right;
     padding-right: 10px;
-    font-size: 130%;
+    font-size: 150%;
 }
 
-a:link{
-    color:green;
+a{
+    color: orange;
     text-decoration: none;
-    background-color: transparent;
 }
+
 
 a:hover{
-    color: purple;
-    text-decoration: none;
+    color: yellow;
+    text-decoration: underline;
     background-color: transparent;
 }
 
 /* hero image*/
 
 .hero-image{
-    height: 850px;
+    height: 700px;
     max-width: 100%;
-    background: url("../css/images/istockphoto-1342229939-612x612.jpg") no-repeat center center;
+    background: url("../css/images/pexels-lukas-296302\ \(2\).jpg");
     background-color: orange;
     background-size: cover;
+    margin: 0 5px 0 5px;
 }
 
 .text-content{
     float:right;
-    border:2px solid grey;
+    border:2px solid white;
     text-align: center;
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     border-radius: 50%;
-    background-color: grey;
-    position: relative;
+    background-color: orange;
     padding-top: 50px;
-    padding-right: 100px;
+    bottom: 250px;
+    right: 200px;
+    position: absolute;
 }
 
 
