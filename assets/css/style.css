@@ -141,6 +141,42 @@ a:hover{
     width: 50%;
 }
 
+.footer{
+    height: 50px;
+}
+
+.social-media{
+    text-align: center;
+    padding: 3%; 
+    border: 2px solid black;
+    background-color: green;
+}
+
+
+.social-media li{
+    display: inline;
+}
+
+.social-media i{
+    padding: 25px 100px 25px 100px;
+    color: black;
+    font-size: 30px;
+}
+
+i{
+    color: green;
+    text-decoration: none;
+}
+
+
+i:hover{
+    color: orange;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
 
 
 
